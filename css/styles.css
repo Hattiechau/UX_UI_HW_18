@@ -1,0 +1,194 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+h2 {
+    font: 44px 'Lora', serif ;
+}
+h3 {
+    font-size: 28px;
+}
+h4 {
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+}
+h5 {
+    font-size: 16px;
+    font-weight: 100;
+}
+section {
+    margin:0 240px;
+}
+.links {
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid #DBA53A;
+    padding-bottom: 5px;
+    color: black;
+}
+/* nav bar */
+.navigation {
+    display:flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+.menu {
+    margin-right: 87px;
+    padding: 20px 0;
+}
+.navItem a {
+    padding: 0 27px;
+    text-decoration: none;
+    color: black;
+}
+
+.navItem li {
+    display: inline-block;
+}
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    padding: 10px 87px;
+}
+/* hero section */
+.heroImg img {
+    position: absolute;
+    display: block;
+    top: 100px;
+    left: 250px;
+    z-index: -1;
+}
+.heroName {
+    position: relative;
+    text-align: center;
+    top: 75px;
+    font: 96px 'Lora', serif;
+    font-weight: normal;
+    letter-spacing: 0.25em; 
+}
+.heroTitle {
+    position: absolute;
+    top: 345px;
+    right: 290px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0.em;
+}
+.heroSection {
+    height: 650px;
+}
+
+/* Rose Haven case study */
+.roseHaven-container {
+    width: 100%;
+    height: 520px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 0;
+}
+.roseHaven-text {
+    z-index: 1;
+}
+.roseHaven-imageStack_itemTop {
+    z-index: 0;
+    grid-column-start: 2;
+  }
+.roseHaven-imageStack_itemBottom {
+    position: absolute;
+    right: 320px;
+    top: 700px;
+    z-index: -1;
+    grid-column-start: 2;
+}
+    /*DMV case study  */
+.DMV-container {
+    width: 100%;
+    height: 520px;
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 0;
+} 
+.DMV-text {
+    text-align: right;
+    z-index: 1;
+    grid-column-start: 2;
+}
+.DMV-imageStack_itemTop {
+    z-index: 0;
+    grid-column-start: 1;
+  }
+.DMV-imageStack_itemBottom {
+    position: absolute;
+    left: 210px;
+    top: 1200px;
+    z-index: -1;
+    grid-column-start: 1;
+}
+/* wash case study */
+.wash-container {
+    width: 100%;
+    height: 520px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 0;
+}
+.wash-text {
+    z-index: 1;
+}
+.wash-imageStack_itemTop {
+    position: absolute;
+    right: 300px;
+    z-index: 0;
+    grid-column-start: 2;
+  }
+.wash-imageStack_itemBottom {
+    position: absolute;
+    right: 250px;
+    top: 1800px;
+    z-index: -1;
+    grid-column-start: 2;
+}
+/* footer */
+footer {
+    height: 328px;
+    margin: 20px;
+    padding: 40px;
+    text-align: center;
+    font-size: 14px;
+}
+.footerName {
+    font-weight: 800;
+}
+.footerInfo div {
+    line-height: 1.6;
+}
+.footerConnect div {
+    line-height: 1.6;
+}
+
+.footerInfo {
+    padding: 20px;
+}
+.footerConnect {
+    padding: 20px;
+}
+
+.footerEmail a {
+    text-decoration: none;
+    color: black
+}
+.footerEmail a:hover {
+    color: #DBA53A;
+    text-decoration: underline;
+}
+.footerSocial {
+    display: flex;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.footerCopyright {
+    font-size: 11px;
+    padding: 60px 20px 0 20px;
+}
