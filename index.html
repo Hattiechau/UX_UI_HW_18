@@ -4,29 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/946b1c557b.js" crossorigin="anonymous"></script>
     <title>Hattie Chau – UX/UI Design</title>
 </head>
 <body>
     <header>
         <div class="navigation">
-            <div class="logo">
-            <img src="images/logoBW.png" alt="hc logo" width="56" height="48">
-            </div>
             <nav>
-                <ul class="navigation menu">
-                    <lis class="navItem" ><a href= "index.html">work</a></li>
+                <img src="images/logoBW.png" alt="hc logo" width="56" height="48" class="logo" />
+                <button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
+                <ul class="nav-ul menu" id="nav-ul">
+                    <li class="navItem" style="color:blue;"><a href= "index.html">work</a></li>
                     <li class="navItem"><a href="about.html">about</a></li>
                     <li class="navItem"><a href=resume.pdf.>resume</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+    </header>
 
     <section class="heroSection">
         <div class="heroImg">
-            <img src="images/triangles.png" alt="hero image triangles" width="714" height="619">
+            <img src="images/triangles.png" alt="hero image triangles" class="triangle-bg">
                 <h1 class="heroName">Hattie Chau</h1>
                 <h3 class="heroTitle">UX/UI Designer</h3>
             </div>
@@ -35,16 +36,16 @@
     <section class=homepage_CaseStudy>
         <div class="roseHaven-container">
             <div class="roseHaven-text">
-                <h2>Rose Haven  <br>Women's Shelter</h2>
+                <h2>Rose Haven Women's Shelter</h2>
                 <h5>Responsive Website Redesign</h5>
                 <h5>Visual Design</h5>
                 <h4><a href="url" class="links">View Case Study</a></h4>
             </div>
             <div class="roseHaven-imageStack_itemTop">
-                    <img src="images/RoseHaven-Mockup.png" alt="Rose Haven Responsive Website Redesign" width="580" height="362">
+                    <img src="images/RoseHaven-Mockup.png" alt="Rose Haven Responsive Website Redesign" class="roseHaven-Mockup">
             </div>
             <div class="roseHaven-imageStack_itemBottom">
-                    <img src="images/squares.png" alt="squares background" width="572" height="491">
+                    <img src="images/squares.png" alt="squares background" class="square-bg">
             </div>
          </div> 
                
@@ -56,10 +57,10 @@
                 <h4><a href="url" class="links">View Case Study</a></h4>
             </div>
             <div class="DMV-imageStack_itemTop">
-                <img src="images/DMV-cover-image.png" alt="California DMV Responsive Website Redesign" width="455" height="344">
+                <img src="images/DMV-cover-image.png" alt="California DMV Responsive Website Redesign" class="DMV-Mockup">
             </div>
             <div class="DMV-imageStack_itemBottom">
-                <img src="images/circles.png" alt="circles background" width="683" height="586">
+                <img src="images/circles.png" alt="circles background" class="circle-bg">
             </div>
         </div>
     
@@ -70,10 +71,10 @@
                 <h4><a href="url" class="links">View Case Study</a></h4>
             </div>
             <div class="wash-imageStack_itemTop">
-                    <img src="images/WASH_Watchface.png" alt="Wash Apple Watch App" width="258" height="436">
+                    <img src="images/WASH_Watchface.png" alt="Wash Apple Watch App" class="wash-Mockup">
             </div>
             <div class="wash-imageStack_itemBottom">
-                    <img src="images/diamonds.png" alt="diamonds background" width="508" height="531">
+                    <img src="images/diamonds.png" alt="diamonds background" class="diamond-bg">
             </div>
          </div> 
     </section>
@@ -88,14 +89,15 @@
             <div class="footerEmail"><a href="emailurl" class="emailLink">hi@hattiechau@gmail.com</a></div>
         </div>
         <div class="footerSocial">
-            <a href="https://www.linkedin.com/in/hattie-chau/"><img src="images/linkedin_logo.png" alt="linkedin logo" width="57" height="57">
+            <a href="https://www.linkedin.com/in/hattie-chau/"><img src="images/linkedin_logo.png" alt="linkedin logo" width="47" height="47">
             </a>
-            <a href="https://dribbble.com/hattie_chau"><img src="images/dribbble_logo.png" alt="dribble logo" width="57" height="57">
+            <a href="https://dribbble.com/hattie_chau"><img src="images/dribbble_logo.png" alt="dribble logo" width="47" height="47">
             </a>
-            <a href="https://www.behance.net/hattiechau"><img src="images/behance_logo.png" alt="behance logo" width="57" height="57">
+            <a href="https://www.behance.net/hattiechau"><img src="images/behance_logo.png" alt="behance logo" width="47" height="47">
             </a>
          </div>
          <div class="footerCopyright">&copy; 2020 Hattie Chau</div>
     </footer>
 </body>
+<script src="js/script.js"></script>
 </html>
